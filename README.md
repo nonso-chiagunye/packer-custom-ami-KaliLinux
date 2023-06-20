@@ -3,9 +3,9 @@
 This script creates custom Kali Linux AMI on AWS.
 To build the AMI, first export the credentials as environment variables;
 
-$ export AWS_ACCESS_KEY_ID="<your access key"
+$ export AWS_ACCESS_KEY_ID="<your access key id"
 
-$ export AWS_SECRET_ACCESS_KEY="<your secret key>"
+$ export AWS_SECRET_ACCESS_KEY="<your secret key id>"
   
 Edit main.json to specify your preferred AWS Region. 
   
