@@ -11,14 +11,19 @@ sudo apt update
 
 sudo apt full-upgrade -y 
 
+sleep 5
+
 DEBIAN_FRONTEND=noninteractive sudo apt install -y kali-linux-default
 
+sleep 10
 
-sudo apt-get install -y kali-desktop-xfce xorg xrdp
+DEBIAN_FRONTEND=readline sudo apt install -y kali-desktop-xfce xorg xrdp
 
+sleep 5
 
 sudo systemctl enable xrdp --now
 
+sleep 5
 
 echo "kali:kali" | sudo chpasswd 
 
